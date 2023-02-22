@@ -1,1 +1,3822 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://raw.githubusercontent.com/webinar-data-science/PROVA/main/File_RDF_OWL.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://raw.githubusercontent.com/webinar-data-science/PROVA/main/File_RDF_OWL.owl"
+     versionIRI="https://raw.githubusercontent.com/webinar-data-science/PROVA/main/File_RDF_OWL.owl">
+    <Prefix name="" IRI="http://localhost/core"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://localhost/core#AEMTags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Article"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Characteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Destination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Destinations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Hyperlink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Offer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Paragraph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Spnsor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#Stage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#UserType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#additionalManualTags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#addressArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#aiChosenTags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#altitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#city"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#contactPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#coordinatesReferencedSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#district"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#eventOrSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#eventProgram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#fullAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#geographicalDistribution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#geometryType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#ineligibleRegions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#itinerary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#latitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#longitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#onlineContact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#owner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#paymentMethods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#postalCode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#priceSpecification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#province"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#quantity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#spatialObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#streetName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#streetNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#temporalEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhost/core#validity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasAddress"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasAddressComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasAemTags"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasAudio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasAuthors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasDestination"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasDestinationDetails"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasDuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasEligbleUsers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasEligibleQuantity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasEmail"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasEventProgram"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasEvents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasHyperlinks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasImage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasItinerary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasMedia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasNotEligibleRegions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasNotEligibleUsers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasOffer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasOnlineContactPoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasOwner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasPargraphs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasPartner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasPaymentMethods"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasPriceSpecification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasPrimaryTag"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasSource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasSponsors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasStageitineraryUGC"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasTags"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasTelephone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasValidity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasVideo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#hasWebSite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#includes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#includesPointOfInterest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#isAudioOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#isImageOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhost/core#isVideoOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#AEMTags"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#POIEmail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#POIOpeningHours"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#URL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#accountAuthorName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#additionalInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#additionalManualTags"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#agent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#aiChosenTags"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#ambienceType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#bestPeriod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#bookable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#category"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#city"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#creationData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#destinationType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#difficulty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#documentsPDF"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#dtUpdate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#durationHours"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#emailPec"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#endDateTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#end_Date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#endingHourAM"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#endingHourPM"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#eventAbstract"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#eventTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#externalVideos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#faxNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#fileAudio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#firstPublicationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#fullAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#gifs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#googleDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#hasGiftCard"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#hasPayment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#hasStock"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#hasTheForkPay"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#hyperlinkLable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#hyperlinkURL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idAdobePlace"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idAemTags"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idArticle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idAuthor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idDestination"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idEsri"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idEvent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idHyperlink"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idItinerary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idItineraryUGC"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idMedia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idOnlineContact"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idParagraph"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idPlace"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idSource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idSponsor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idStage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idStageUGC"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#idsAdobePlace"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#imagecredit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#images"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#insiderDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#insiderStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#insiderTip"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#internalVideos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#isCompleted"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#isPublic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#isStartPoint"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#itinerary_end"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#itinerary_start"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#keywords"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#lastModificationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#lastPubblicationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#lastPublicationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#lastUpdateDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#latitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#listOfServices"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#longDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#longitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#mainType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#mediaCategory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#mediaCredit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#mediaDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#mediaEndDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#mediaHeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#mediaLicenseURL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#mediaURL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#mediaWidth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#numberOfReviews"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#officialName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#onlineContactPoint"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#openingHours"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#order"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#organizer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#otherServices"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#otherType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#overTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#owner"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#parTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#partnerName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#postalCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#priceCurrency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#priceRange"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#primaryTag"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#reached"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#readingTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#region"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#reservationInfo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#shortDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#shortEventTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#specialOpeningHours"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#sponsor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#stageDays"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#stageUGCDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#stageUGCDateOrder"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#stageUGCType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#startDateTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#start_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#startingHourAM"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#startingHourPM"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#structuredDurationDays"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#structuredDurationHours"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#subTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#telephoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#text"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#thematicArticleEvent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#ticketPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#unitOfMeasurement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#userTypeCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#userTypeDesc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#validFrom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#validTo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#virtualEvent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#webSiteURL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#widgetDetails"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#widgetParameters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#widgetURL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhost/core#widgets"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://localhost/core#event"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://localhost/core#entity"/>
+            <Class IRI="http://localhost/core#eventOrSituation"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://localhost/core#hasTags"/>
+                <Class IRI="http://localhost/core#AEMTags"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#AEMTags"/>
+        <Class IRI="http://localhost/core#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <Class IRI="http://localhost/core#entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://localhost/core#hasPargraphs"/>
+                <Class IRI="http://localhost/core#Paragraph"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://localhost/core#hasPargraphs"/>
+                <Class IRI="http://localhost/core#Paragraph"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasAuthors"/>
+            <Class IRI="http://localhost/core#Author"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasSource"/>
+            <Class IRI="http://localhost/core#source"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#includes"/>
+            <Class IRI="http://localhost/core#Destination"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasEligbleUsers"/>
+            <Class IRI="http://localhost/core#UserType"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasEvents"/>
+            <Class IRI="http://localhost/core#event"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasHyperlinks"/>
+            <Class IRI="http://localhost/core#Hyperlink"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasItinerary"/>
+            <Class IRI="http://localhost/core#itinerary"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasNotEligibleUsers"/>
+            <Class IRI="http://localhost/core#UserType"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasOffer"/>
+            <Class IRI="http://localhost/core#Offer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasSponsors"/>
+            <Class IRI="http://localhost/core#Spnsor"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#AEMTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#additionalManualTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#aiChosenTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#documentsPDF"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#externalVideos"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#fileAudio"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#gifs"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#images"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#internalVideos"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#URL"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#creationData"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#description"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idArticle"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#overTitle"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#primaryTag"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#readingTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#subTitle"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#title"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#lastModificationDate"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#lastPubblicationDate"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#validFrom"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Article"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#validTo"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Author"/>
+        <Class IRI="http://localhost/core#agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Author"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Author"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idAuthor"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Author"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Author"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Category"/>
+        <Class IRI="http://localhost/core#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Category"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://localhost/core#value"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <Class IRI="http://localhost/core#entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasEligbleUsers"/>
+            <Class IRI="http://localhost/core#UserType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasOnlineContactPoint"/>
+            <Class IRI="http://localhost/core#onlineContact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasHyperlinks"/>
+            <Class IRI="http://localhost/core#Hyperlink"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasNotEligibleUsers"/>
+            <Class IRI="http://localhost/core#UserType"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasPartner"/>
+            <Class IRI="http://localhost/core#partnerRecord"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#includes"/>
+            <Class IRI="http://localhost/core#Destinations"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://localhost/core#hasDestinationDetails"/>
+            <Class IRI="http://localhost/core#destinationDetails"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#AEMTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#additionalManualTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#aiChosenTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#documentsPDF"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#externalVideos"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#fileAudio"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#gifs"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#images"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#internalVideos"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#ticketPrice"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#category"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#googleDescription"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idAdobePlace"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idDestination"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#officialName"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#primaryTag"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#description"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#destinationType"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#firstPublicationDate"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#lastPublicationDate"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#longDescription"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#owner"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destination"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#shortDescription"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Destinations"/>
+        <Class IRI="http://localhost/core#Destination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Hyperlink"/>
+        <Class IRI="http://localhost/core#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Hyperlink"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#hyperlinkURL"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Hyperlink"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idHyperlink"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Hyperlink"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#description"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Hyperlink"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Hyperlink"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#name"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Language"/>
+        <Class IRI="http://localhost/core#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Language"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://localhost/core#value"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Offer"/>
+        <Class IRI="http://localhost/core#entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Organization"/>
+        <Class IRI="http://localhost/core#agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <Class IRI="http://localhost/core#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasDestination"/>
+            <Class IRI="http://localhost/core#Destination"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasEvents"/>
+            <Class IRI="http://localhost/core#event"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasHyperlinks"/>
+            <Class IRI="http://localhost/core#Hyperlink"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasItinerary"/>
+            <Class IRI="http://localhost/core#itinerary"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasOffer"/>
+            <Class IRI="http://localhost/core#Offer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idParagraph"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#text"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#title"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#durationHours"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#order"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#stageDays"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#structuredDurationDays"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#structuredDurationHours"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Paragraph"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#subTitle"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Spnsor"/>
+        <Class IRI="http://localhost/core#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Spnsor"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Spnsor"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idSponsor"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Spnsor"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#name"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <Class IRI="http://localhost/core#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasDestination"/>
+            <Class IRI="http://localhost/core#Destination"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasEvents"/>
+            <Class IRI="http://localhost/core#event"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasHyperlinks"/>
+            <Class IRI="http://localhost/core#Hyperlink"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasItinerary"/>
+            <Class IRI="http://localhost/core#itinerary"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasOffer"/>
+            <Class IRI="http://localhost/core#Offer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idParagraph"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#parTitle"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#text"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#durationHours"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#order"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#stageDays"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#structuredDurationDays"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#structuredDurationHours"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#Stage"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#subTitle"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#UserType"/>
+        <Class IRI="http://localhost/core#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#UserType"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://localhost/core#userTypeCode"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#UserType"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#dtUpdate"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#UserType"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#userTypeDesc"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#additionalManualTags"/>
+        <Class IRI="http://localhost/core#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#addressArea"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#agent"/>
+        <Class IRI="http://localhost/core#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#aiChosenTags"/>
+        <Class IRI="http://localhost/core#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#altitude"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#city"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#contactPoint"/>
+        <Class IRI="http://localhost/core#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#coordinatesReferencedSystem"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#country"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+        <Class IRI="http://localhost/core#spatialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idPlace"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idEsri"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#district"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#duration"/>
+        <Class IRI="http://localhost/core#temporalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#duration"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#unitOfMeasurement"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#duration"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#value"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <Class IRI="http://localhost/core#eventOrSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasDestination"/>
+            <Class IRI="http://localhost/core#Destination"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasEligbleUsers"/>
+            <Class IRI="http://localhost/core#UserType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasEventProgram"/>
+            <Class IRI="http://localhost/core#eventProgram"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasNotEligibleUsers"/>
+            <Class IRI="http://localhost/core#UserType"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasOffer"/>
+            <Class IRI="http://localhost/core#Offer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasSponsors"/>
+            <Class IRI="http://localhost/core#Spnsor"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#includes"/>
+            <Class IRI="http://localhost/core#Paragraph"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#includes"/>
+            <Class IRI="http://localhost/core#event"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://localhost/core#hasOnlineContactPoint"/>
+            <Class IRI="http://localhost/core#onlineContact"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="http://localhost/core#hasValidity"/>
+            <Class IRI="http://localhost/core#validity"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://localhost/core#organizer"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#AEMTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#additionalManualTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#aiChosenTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#documentsPDF"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#externalVideos"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#fileAudio"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#gifs"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#idsAdobePlace"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#images"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#internalVideos"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#ticketPrice"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#description"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#endDateTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#eventTitle"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idEvent"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#primaryTag"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#startDateTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#URL"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#agent"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#duration"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#firstPublicationDate"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#lastPublicationDate"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#openingHours"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#subTitle"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#type"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#validFrom"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#validTo"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#event"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#virtualEvent"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#eventOrSituation"/>
+        <Class IRI="http://localhost/core#entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#eventProgram"/>
+        <Class IRI="http://localhost/core#eventOrSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#eventProgram"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasDestination"/>
+            <Class IRI="http://localhost/core#Destination"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#eventProgram"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#description"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#eventProgram"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#title"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#eventProgram"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#end_Date"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#eventProgram"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#endingHourAM"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#eventProgram"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#endingHourPM"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#eventProgram"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#eventProgram"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#start_date"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#eventProgram"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#startingHourAM"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#eventProgram"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#startingHourPM"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#fullAddress"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#geographicalDistribution"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#geometryType"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#ineligibleRegions"/>
+        <Class IRI="http://localhost/core#spatialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#ineligibleRegions"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#value"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <Class IRI="http://localhost/core#entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasDestination"/>
+            <Class IRI="http://localhost/core#Destination"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasEligbleUsers"/>
+            <Class IRI="http://localhost/core#UserType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#includes"/>
+            <Class IRI="http://localhost/core#Stage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasAuthors"/>
+            <Class IRI="http://localhost/core#Author"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasEvents"/>
+            <Class IRI="http://localhost/core#event"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasHyperlinks"/>
+            <Class IRI="http://localhost/core#Hyperlink"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasNotEligibleUsers"/>
+            <Class IRI="http://localhost/core#UserType"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasOffer"/>
+            <Class IRI="http://localhost/core#Offer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasSponsors"/>
+            <Class IRI="http://localhost/core#Spnsor"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="http://localhost/core#hasSource"/>
+            <Class IRI="http://localhost/core#source"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#AEMTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#additionalManualTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#aiChosenTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#documentsPDF"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#externalVideos"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#fileAudio"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#gifs"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#idsAdobePlace"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#images"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#internalVideos"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#creationData"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#description"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idItinerary"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#primaryTag"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#title"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#URL"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#bestPeriod"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#difficulty"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#durationHours"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#firstPublicationDate"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#lastModificationDate"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#lastPubblicationDate"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#overTitle"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#structuredDurationDays"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#structuredDurationHours"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#subTitle"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#type"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#validFrom"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itinerary"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#validTo"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <Class IRI="http://localhost/core#entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasStageitineraryUGC"/>
+            <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#includes"/>
+            <Class IRI="http://localhost/core#itinerary"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#images"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idItineraryUGC"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#itinerary_end"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#itinerary_start"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#title"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#accountAuthorName"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#creationData"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#description"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#isCompleted"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#isPublic"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#lastModificationDate"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#start_date"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#itineraryUGC"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#subTitle"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#latitude"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#longitude"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#onlineContact"/>
+        <Class IRI="http://localhost/core#contactPoint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#onlineContact"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#onlineContactPoint"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#onlineContact"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idOnlineContact"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#owner"/>
+        <Class IRI="http://localhost/core#agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#owner"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#value"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <Class IRI="http://localhost/core#entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://localhost/core#openingHours"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://localhost/core#telephoneNumber"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#AEMTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#additionalManualTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#aiChosenTags"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#description"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#listOfServices"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#otherServices"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://localhost/core#otherType"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#city"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#fullAddress"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#hasGiftCard"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#hasPayment"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#hasStock"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#hasTheForkPay"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#latitude"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#longitude"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#mainType"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#name"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#numberOfReviews"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#partnerName"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#postalCode"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#rating"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#region"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#widgets"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#ambienceType"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#bookable"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#images"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#insiderDescription"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#insiderStatus"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#partnerRecord"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#insiderTip"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#paymentMethods"/>
+        <Class IRI="http://localhost/core#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#paymentMethods"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://localhost/core#value"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#postalCode"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#priceSpecification"/>
+        <Class IRI="http://localhost/core#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#priceSpecification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasEligbleUsers"/>
+            <Class IRI="http://localhost/core#UserType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#priceSpecification"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasNotEligibleRegions"/>
+            <Class IRI="http://localhost/core#ineligibleRegions"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#priceSpecification"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://localhost/core#hasNotEligibleUsers"/>
+            <Class IRI="http://localhost/core#UserType"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#priceSpecification"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://localhost/core#hasDuration"/>
+            <Class IRI="http://localhost/core#duration"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#priceSpecification"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://localhost/core#hasEligibleQuantity"/>
+            <Class IRI="http://localhost/core#quantity"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#priceSpecification"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#name"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#priceSpecification"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#price"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#priceSpecification"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#priceCurrency"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#priceSpecification"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#unitOfMeasurement"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#province"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#quantity"/>
+        <Class IRI="http://localhost/core#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#quantity"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#unitOfMeasurement"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#quantity"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#value"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#region"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#source"/>
+        <Class IRI="http://localhost/core#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#source"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#URL"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#source"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#description"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#source"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idSource"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#source"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#name"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#source"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#spatialObject"/>
+        <Class IRI="http://localhost/core#location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        <Class IRI="http://localhost/core#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idStage"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#idStageUGC"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#isStartPoint"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#reached"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#stageUGCDate"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#stageUGCDateOrder"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#stageUGCType"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#durationHours"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#stageDays"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#structuredDurationDays"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#stageItineraryUGC"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#structuredDurationHours"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#streetName"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#streetNumber"/>
+        <Class IRI="http://localhost/core#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#validity"/>
+        <Class IRI="http://localhost/core#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#validity"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#validFrom"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhost/core#validity"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://localhost/core#validTo"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://localhost/core#hasAudio"/>
+        <ObjectProperty IRI="http://localhost/core#isAudioOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://localhost/core#hasImage"/>
+        <ObjectProperty IRI="http://localhost/core#isImageOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://localhost/core#hasVideo"/>
+        <ObjectProperty IRI="http://localhost/core#isVideoOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://localhost/core#hasAudio"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://localhost/core#hasAuthors"/>
+        <Class IRI="http://localhost/core#Article"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://localhost/core#hasDestination"/>
+        <Class IRI="http://localhost/core#Article"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://localhost/core#hasEligbleUsers"/>
+        <Class IRI="http://localhost/core#Article"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://localhost/core#hasEvents"/>
+        <Class IRI="http://localhost/core#Paragraph"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://localhost/core#hasHyperlinks"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://localhost/core#hasImage"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://localhost/core#hasAuthors"/>
+        <Class IRI="http://localhost/core#Author"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://localhost/core#hasDestination"/>
+        <Class IRI="http://localhost/core#Destination"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://localhost/core#hasEligbleUsers"/>
+        <Class IRI="http://localhost/core#UserType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://localhost/core#hasHyperlinks"/>
+        <Class IRI="http://localhost/core#Hyperlink"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#POIEmail"/>
+        <DataProperty IRI="http://localhost/core#onlineContactPoint"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#POIOpeningHours"/>
+        <DataProperty IRI="http://localhost/core#onlineContactPoint"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#emailPec"/>
+        <DataProperty IRI="http://localhost/core#onlineContactPoint"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#faxNumber"/>
+        <DataProperty IRI="http://localhost/core#onlineContactPoint"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idAdobePlace"/>
+        <DataProperty IRI="http://localhost/core#idsAdobePlace"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idAemTags"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idArticle"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idAuthor"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idDestination"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idEsri"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idEvent"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idHyperlink"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idIngestedContent"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idItinerary"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idItineraryUGC"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idMedia"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idOnlineContact"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idParagraph"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idPlace"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idSource"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idSponsor"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idStage"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#idStageUGC"/>
+        <DataProperty IRI="http://localhost/core#identifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#lastPublicationDate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#specialOpeningHours"/>
+        <DataProperty IRI="http://localhost/core#onlineContactPoint"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#status"/>
+        <DataProperty IRI="http://localhost/core#onlineContactPoint"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#telephoneNumber"/>
+        <DataProperty IRI="http://localhost/core#onlineContactPoint"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#webSiteURL"/>
+        <DataProperty IRI="http://localhost/core#onlineContactPoint"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#widgetDetails"/>
+        <DataProperty IRI="http://localhost/core#widgets"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#widgetParameters"/>
+        <DataProperty IRI="http://localhost/core#widgets"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://localhost/core#widgetURL"/>
+        <DataProperty IRI="http://localhost/core#widgets"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#Article</IRI>
+        <Literal xml:lang="it">Classe principale che rappresenta un determinato articolo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Article</IRI>
+        <Literal xml:lang="it">Articolo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#Author</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta l&apos;autore.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Author</IRI>
+        <Literal>Author</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Author</IRI>
+        <Literal xml:lang="it">Autore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Category</IRI>
+        <Literal xml:lang="it">Categoria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Category</IRI>
+        <Literal xml:lang="en">Category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Category</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta la categoria di una destination; viene fornita da Google e alcuni esempi possono essere: gym,school,store,dentist etc..</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Destination</IRI>
+        <Literal xml:lang="it">Classe principale utilizzata per rappresentare la destinazione.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Destination</IRI>
+        <Literal xml:lang="en">Destination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Destination</IRI>
+        <Literal xml:lang="it">Destinazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Destinations</IRI>
+        <Literal xml:lang="en">Linked Destinations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#Language</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta la lingua in cui ci viene fornito il dato.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Language</IRI>
+        <Literal xml:lang="en">Language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Object</IRI>
+        <Literal>Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#Offer</IRI>
+        <Literal>Classe principale utilizzata per rappresentare l’offerta legata ad un’esperienza.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Offer</IRI>
+        <Literal>Offer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Offer</IRI>
+        <Literal xml:lang="it">Questa entità è priva di attributi perchè in fase di analisi, in attesa delle specifiche dal partner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#Paragraph</IRI>
+        <Literal xml:lang="it">Classe utilizzata per rappresentare il paragrafo di un determinato articolo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#Spnsor</IRI>
+        <Literal>Sponsor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#Stage</IRI>
+        <Literal xml:lang="it">Classe utilizzata per rappresentare lo stage di un determinato itinerario.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#URL</IRI>
+        <Literal>URL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#UserType</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta la tipologia di persone per la quale è stata pensata l&apos;offerta. Es: coppie, famiglie etc..</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#UserType</IRI>
+        <Literal xml:lang="en">User Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#additionalInformation</IRI>
+        <Literal>additional information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#addressArea</IRI>
+        <Literal>Address Area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#agent</IRI>
+        <Literal xml:lang="en">Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#altitude</IRI>
+        <Literal>Altitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#city</IRI>
+        <Literal>City</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#contactPoint</IRI>
+        <Literal>Contact Point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#coordinatesReferencedSystem</IRI>
+        <Literal>Coordinates Referenced System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#country</IRI>
+        <Literal>Country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#creationData</IRI>
+        <Literal>creation data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#destinationDetails</IRI>
+        <Literal>Classe che rappresenta i dettagli di una destinazione. Es: address, geometry.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#destinationDetails</IRI>
+        <Literal xml:lang="en">Destination Details</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#district</IRI>
+        <Literal>District</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#duration</IRI>
+        <Literal xml:lang="it">Classe utilizzata per rappresentare la durata.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#duration</IRI>
+        <Literal>Duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#durationHours</IRI>
+        <Literal xml:lang="en">duration hours</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#endDateTime</IRI>
+        <Literal>end datetime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#entity</IRI>
+        <Literal xml:lang="en">Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#event</IRI>
+        <Literal xml:lang="it">Evento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#event</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta l&apos;evento.Es: Business Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#event</IRI>
+        <Literal>Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#eventAbstract</IRI>
+        <Literal>event abstract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#eventOrSituation</IRI>
+        <Literal xml:lang="en">Event or Situation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#eventProgram</IRI>
+        <Literal xml:lang="en">Event Program</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#eventTitle</IRI>
+        <Literal>event title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#fullAddress</IRI>
+        <Literal>Full Address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#geographicalDistribution</IRI>
+        <Literal>Geographical Distribution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#geometryType</IRI>
+        <Literal>Geometry type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasAddress</IRI>
+        <Literal>has address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasAddressComponent</IRI>
+        <Literal>has address component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasAemTags</IRI>
+        <Literal>has aem tags</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasAudio</IRI>
+        <Literal xml:lang="en">has audio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasAuthors</IRI>
+        <Literal xml:lang="en">has authors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasCategory</IRI>
+        <Literal>has category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasDestination</IRI>
+        <Literal>has destination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasDestinationDetails</IRI>
+        <Literal>has destination details</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasDuration</IRI>
+        <Literal>has duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasEligbleUsers</IRI>
+        <Literal xml:lang="en">has eligible users</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasEligibleQuantity</IRI>
+        <Literal>has eligible quantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasEmail</IRI>
+        <Literal>has email</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasEventProgram</IRI>
+        <Literal xml:lang="en">has event program</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasEvents</IRI>
+        <Literal xml:lang="en">has events</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasHyperlinks</IRI>
+        <Literal xml:lang="en">has hyperlinks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasImage</IRI>
+        <Literal xml:lang="en">has image</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasItinerary</IRI>
+        <Literal>has itinerary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasMedia</IRI>
+        <Literal>has media</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasNotEligibleRegions</IRI>
+        <Literal>has not eligible regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasNotEligibleUsers</IRI>
+        <Literal xml:lang="en">has not eligible users</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasOffer</IRI>
+        <Literal xml:lang="en">has offer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasOnlineContactPoint</IRI>
+        <Literal>has online contact point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasOwner</IRI>
+        <Literal>has owner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasPargraphs</IRI>
+        <Literal xml:lang="en">has paragraph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasPartner</IRI>
+        <Literal xml:lang="en">has partner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasPaymentMethods</IRI>
+        <Literal>has payment methods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasPriceSpecification</IRI>
+        <Literal>has price specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasPrimaryTag</IRI>
+        <Literal>has primary tag</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasSource</IRI>
+        <Literal>has source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasSponsors</IRI>
+        <Literal xml:lang="en">has sponsor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasTelephone</IRI>
+        <Literal>has telephone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasValidity</IRI>
+        <Literal>has validity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasVideo</IRI>
+        <Literal xml:lang="en">has video</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hasWebSite</IRI>
+        <Literal>has web site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hyperlinkLable</IRI>
+        <Literal>hyperlink Lable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#hyperlinkURL</IRI>
+        <Literal>hyperlink URL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#imagecredit</IRI>
+        <Literal xml:lang="en">image Credit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#images</IRI>
+        <Literal xml:lang="en">images</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#includesPointOfInterest</IRI>
+        <Literal xml:lang="en">includes point of interest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#ineligibleRegions</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta gli stati non idonei ad accedere ad una particolare offerta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#ineligibleRegions</IRI>
+        <Literal>Ineligible Regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#isAudioOf</IRI>
+        <Literal xml:lang="en">is audio of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#isImageOf</IRI>
+        <Literal xml:lang="en">is image of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#isStartPoint</IRI>
+        <Literal xml:lang="en">is start point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#isVideoOf</IRI>
+        <Literal xml:lang="en">is video of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#itinerary</IRI>
+        <Literal>Questa classe rappresenta un itinerario. Es: itinerario in bici.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#itinerary</IRI>
+        <Literal>Itinerary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#itineraryUGC</IRI>
+        <Literal xml:lang="en">Itinerary UGC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#lastModificationDate</IRI>
+        <Literal>last modification date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#lastPubblicationDate</IRI>
+        <Literal>last pubblication date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#lastUpdateDate</IRI>
+        <Literal>last update date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#latitude</IRI>
+        <Literal>Latitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#latitude</IRI>
+        <Literal xml:lang="it">Latitudine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#latitude</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta la latitudine di una destinazione.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#location</IRI>
+        <Literal xml:lang="en">Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#longitude</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta la longitudine di una destinazione.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#longitude</IRI>
+        <Literal>Longitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#longitude</IRI>
+        <Literal xml:lang="it">Longitudine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#mediaCategory</IRI>
+        <Literal>media category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#mediaCredit</IRI>
+        <Literal>media credit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#mediaDescription</IRI>
+        <Literal>media description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#mediaEndDate</IRI>
+        <Literal xml:lang="en">media end date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#mediaHeight</IRI>
+        <Literal>media height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#mediaLicenseURL</IRI>
+        <Literal>media license URL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#mediaURL</IRI>
+        <Literal>media URL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#mediaWidth</IRI>
+        <Literal>media width</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#onlineContact</IRI>
+        <Literal>Online Contact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#onlineContactPoint</IRI>
+        <Literal>Online Contact Point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#openingHours</IRI>
+        <Literal>opening hours</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#overTitle</IRI>
+        <Literal>over Title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#owner</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta il proprietario di una particolare struttura.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#owner</IRI>
+        <Literal>Owner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#owner</IRI>
+        <Literal xml:lang="it">Proprietario</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#partnerRecord</IRI>
+        <Literal xml:lang="en">PartnerRecord</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#paymentMethods</IRI>
+        <Literal xml:lang="it">Classe utilizzata per rappresentare il metodo di pagamento disponibile.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#paymentMethods</IRI>
+        <Literal>Payment Methods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#postalCode</IRI>
+        <Literal>Postal Code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#price</IRI>
+        <Literal>price</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#priceCurrency</IRI>
+        <Literal>price currency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#priceRange</IRI>
+        <Literal>price range</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#priceSpecification</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta le specifiche di prezzo di una particolare offerta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#priceSpecification</IRI>
+        <Literal>Price Specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#primaryTag</IRI>
+        <Literal xml:lang="en">primary tag</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#province</IRI>
+        <Literal>Province</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#quantity</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta una determinata quantità.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#quantity</IRI>
+        <Literal>Quantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#readingTime</IRI>
+        <Literal>reading time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#region</IRI>
+        <Literal xml:lang="it">Es: Piemonte, Lombardia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#region</IRI>
+        <Literal>Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#reservationInfo</IRI>
+        <Literal>reservation info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#shortEventTitle</IRI>
+        <Literal>short event title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#source</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta la risorsa di un articolo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#source</IRI>
+        <Literal>Source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#spatialObject</IRI>
+        <Literal xml:lang="en">Spatial Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#stageDays</IRI>
+        <Literal xml:lang="en">stage days</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#stageItineraryUGC</IRI>
+        <Literal xml:lang="en">Stage Itinerary UGC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#startDateTime</IRI>
+        <Literal>start datetime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#streetName</IRI>
+        <Literal>Street Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#streetNumber</IRI>
+        <Literal>Street Number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#subTitle</IRI>
+        <Literal>subTitle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#temporalEntity</IRI>
+        <Literal xml:lang="en">Temporal Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#thematicArticleEvent</IRI>
+        <Literal>thematic article event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#unitOfMeasurement</IRI>
+        <Literal>unit of measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#userTypeCode</IRI>
+        <Literal>user type code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#userTypeDesc</IRI>
+        <Literal>user type desc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#validFrom</IRI>
+        <Literal>valid from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#validTo</IRI>
+        <Literal>valid to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://localhost/core#validity</IRI>
+        <Literal xml:lang="it">Classe utilizzata per rappresentare il periodo in cui l’offerta è usufruibile.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#validity</IRI>
+        <Literal>Validity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://localhost/core#value</IRI>
+        <Literal>value</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
